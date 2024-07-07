@@ -23,7 +23,7 @@ function Remove-Files {
     }
 }
 
-Remove-Files -Path "$env:Temp\*"                                     # :: User-Temp
+Remove-Files -Path "$env:Temp\*"                                          # :: User-Temp
 Remove-Files -Path "$env:SystemRoot\Temp\*"                               # :: System-Temp
 Remove-Files -Path "$env:SystemRoot\SoftwareDistribution\Download\*"      # :: System-Update Temp
 Remove-Files -Path "$env:SystemRoot\Prefetch"                             # :: System-Prefetch

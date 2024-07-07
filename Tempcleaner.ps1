@@ -15,7 +15,7 @@ function Remove-Files {
                     echo "$((Get-Date).ToString('[HH:mm:ss]')) [FAIL   ] $($_.FullName)"
                 }
             } catch {
-                echo "$((Get-Date).ToString('[HH:mm:ss]')) [FAIL   ] $($_)" # - $_"
+                echo "$((Get-Date).ToString('[HH:mm:ss]')) [FAIL   ] $($_)"
             }
         }
     } catch {
